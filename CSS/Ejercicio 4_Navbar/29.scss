@@ -1,0 +1,17 @@
+$primary-color: #a6192e;
+
+.navbar {
+  background-color: $primary-color;
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    li {
+      a { 
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+    }
+  }
+} 
