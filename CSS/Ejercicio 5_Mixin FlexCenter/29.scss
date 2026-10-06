@@ -1,0 +1,11 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  @include flex-center;
+  height: 300px;
+  background-color: lightgray;
+}
